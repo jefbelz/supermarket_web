@@ -32,16 +32,16 @@ const RESOURCES = {"assets/AssetManifest.bin": "f0b3462fb3ee76fdfd60ba5ca9934264
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "e6aaa88be847b06ca6cad0998ab7ce1c",
 "/": "e6aaa88be847b06ca6cad0998ab7ce1c",
-"main.dart.js": "306002c2e1faeb2d5505449cc5917143",
-"manifest.json": "74e6f0298e58eb9c6704d7534d21fc45",
-"version.json": "20d5933059e75fee5194149c4f6ad954"};
+"supermarket_web/main.dart.js": "306002c2e1faeb2d5505449cc5917143",
+"supermarket_web/manifest.json": "74e6f0298e58eb9c6704d7534d21fc45",
+"supermarket_web/version.json": "20d5933059e75fee5194149c4f6ad954"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = ["main.dart.js",
+const CORE = ["supermarket_web/main.dart.js",
 "index.html",
-"flutter_bootstrap.js",
-"assets/AssetManifest.bin.json",
-"assets/FontManifest.json"];
+"supermarket_web/flutter_bootstrap.js",
+"supermarket_web/assets/AssetManifest.bin.json",
+"supermarket_web/assets/FontManifest.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
